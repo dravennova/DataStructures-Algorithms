@@ -27,19 +27,23 @@ int main()
     cout << "Enter a number to search for in the array: ";
     cin >> v;
 
+    int count = 0;
+
     for(int i = 0; i < arraySize; i++)
     {
+        count++;
         if(array[i] == v)
         {
-            cout << "We found value " << v << " at index " << array[i] << " which took " << i << " checks" << endl;
+            cout << "We found value " << v << " at index " << i << " which took " << count << " checks" << endl;
         }
-        if(i == 1)
+        if(array[i] == v && i == 0  && count == 1)
         {
             cout << "We ran the best case scenario!" << endl;
         }
-        if(array[i] < i)
+        if(array[i] == v && i == arraySize - 1 && count == arraySize)
         {
             cout << "We ran into the worst case scenario!" << endl;
         }
+        
     }
 }
