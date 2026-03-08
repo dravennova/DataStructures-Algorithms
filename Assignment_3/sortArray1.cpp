@@ -34,9 +34,14 @@ int main()
         array[j+1] = key;
     }
 
+    cout << "This is the sorted array in an ascending order: ";
+
     for(int k = 0; k < arraySize; k++)
     {
         cout << array[k] << " ";
     }
+
+    cout << "The algorithm selected the maximum for the traverse of the array"; 
+    
 
 }
