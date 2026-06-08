@@ -1,0 +1,62 @@
+Lab 13 output
+
+Exercise 1:
+
+The first list is empty!
+The second list is empty!
+The size of the first list is: 0
+The size of the second list is: 0
+Here is the first list: [5.7,4.6,3.2,2.4,1.5]
+Here is the second list: []
+Here is the first list: [5.7,4.6,3.2,2.4,1.5]
+Here is the second list: [A]
+Here is the first list: [4.6,3.2,2.4,1.5]
+Here is the second list: []
+Here is the first list: []
+Here is the second list: [g,e,f,C]
+The size of the first list is: 0
+The size of the second list is: 4
+The first list is empty!
+The second list is NOT empty...
+Here is the second list: [g,e,f,C]
+Successfully removed an item from the list...
+Here is the second list: [e,f,C]
+Successfully removed an item from the list...
+Here is the second list: [f,C]
+Successfully removed an item from the list...
+Here is the second list: [C]
+Successfully removed an item from the list...
+Here is the second list: []
+COULD NOT remove an item from the list!
+Here is the second list: []
+COULD NOT remove an item from the list!
+The size of the first list is: 0
+The size of the second list is: 0
+The first list is empty!
+The second list is empty!
+
+Exercise 2:
+
+Testing Stack #1:
+isEmpty(): true
+push(A) Stack contents:A
+push(Y) Stack contents:Y,A
+Size(): 2 Stack contents: Y,A
+Pop(): Y Stack contents: A
+isEmpty(): false
+push(D) Stack contents:D,A
+Top(): D Stack contents: D,A
+push(T) Stack contents:T,D,A
+Pop(): T Stack contents: D,A
+
+Testing Stack #2:
+isEmpty(): true
+push(1) Stack contents:1
+push(5) Stack contents:5,1
+Size(): 2 Stack contents: 5,1
+Pop(): 5 Stack contents: 1
+isEmpty(): false
+push(10) Stack contents:10,1
+Top(): 10 Stack contents: 10,1
+push(-5) Stack contents:-5,10,1
+Pop(): -5 Stack contents: 10,1

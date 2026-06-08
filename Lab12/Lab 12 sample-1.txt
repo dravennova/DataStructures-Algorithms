@@ -1,0 +1,21 @@
+Data added.
+Data added.
+Data added.
+Data added.
+Data added.
+Cannot add data...table is full.
+Data removed.
+Cannot remove data...Key not found.
+Content of table:
+0 ->  22     Books
+1 ->  44     Clothing
+2 ->  13     Movies
+3 ->  33     Pets
+4 ->  59     Computers
+5 ->  70     Home Improvement
+6 ->  -1     N/A
+7 ->  18     Appliances
+8 ->  41     Auto Parts
+9 ->  31     Furniture
+10 ->  32     Electronics
+There are 10 of data in the table.

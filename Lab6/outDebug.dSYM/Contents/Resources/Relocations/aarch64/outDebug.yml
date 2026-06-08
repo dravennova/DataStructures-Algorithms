@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dravennova/Desktop/cse30/Lab6/outDebug'
+relocations:     []
+...
